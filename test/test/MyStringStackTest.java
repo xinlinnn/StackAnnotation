@@ -33,8 +33,14 @@ public class MyStringStackTest extends TestCase {
 	public void testPush() {
 		String o1 = null;  
 		MyStringStack stack = new MyStringStack();
+<<<<<<< HEAD
 		assertTrue (stack.isEmpty());
         stack.push (s1);
+=======
+		//stack.push (s1);
+		//assertTrue (stack.isEmpty());
+		stack.push (s1);
+>>>>>>> 566c56e5bbb64887c53f9bfb02929aa60022fdd5
         stack.push (s2);
         assertFalse (stack.isEmpty());
 	}
@@ -84,8 +90,8 @@ public class MyStringStackTest extends TestCase {
 	public void testClear() {
 		String o1 = null;  
 		MyStringStack stack = new MyStringStack();
-        assertTrue (stack.isEmpty());
-        stack.push (s1);
+		stack.push (s1);
+		assertTrue (stack.isEmpty());
         stack.push (s2);
         assertFalse (stack.isEmpty());
         stack.clear ();
